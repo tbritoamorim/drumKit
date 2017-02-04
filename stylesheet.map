@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "sass/stylesheet.css",
+	"sources": [
+		"sass/stylesheet.sass"
+	],
+	"sourcesContent": [
+		"body {\n  background-image: url(\"background.jpeg\");\n  background-size: cover; }\n\n.keys {\n  display: block;\n  margin: {\n    top: 300px;\n    left: 250px; } }\n\n.key {\n  text-align: center;\n  margin-right: 25px;\n  display: inline-block;\n  padding: 10px;\n  border: 1px solid black;\n  background-color: rgba(0, 0, 0, 0.5);\n  color: white; }\n\n.description {\n  color: yellow;\n  margin-top: 5px; }\n"
+	],
+	"mappings": ";AAAA,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,sBAAG;EACrB,eAAe,EAAE,KAAM;CAAG;;;AAE5B,AAAA,KAAK,CAAC;EACJ,OAAO,EAAE,KAAM;EACf,MAAM,AAEU,CAAC,AADf,GAAG,EAAE,KAAM;EADb,MAAM,AAEU,CAAC,AAAf,IAAI,EAAE,KAAM;CAAK;;;AAErB,AAAA,IAAI,CAAC;EACH,UAAU,EAAE,MAAO;EACnB,YAAY,EAAE,IAAK;EACnB,OAAO,EAAE,YAAa;EACtB,OAAO,EAAE,IAAK;EACd,MAAM,EAAE,eAAgB;EACxB,gBAAgB,EAAE,kBAAI;EACtB,KAAK,EAAE,KAAM;CAAG;;;AAElB,AAAA,YAAY,CAAC;EACX,KAAK,EAAE,MAAO;EACd,UAAU,EAAE,GAAI;CAAG",
+	"names": []
+}
