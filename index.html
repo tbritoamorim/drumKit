@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <htmL>
   <head>
+    <meta charset="UTF-8">
     <title>Drum Kit</title>
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
     <link type="text/css" href="stylesheet.css" rel="stylesheet" />
+    <script src="jssheet.js"></script>
   </head>
   <body>
     <div class="keys">
-      <div class="key">A<div class="description">CLAP</div></div>
-      <div class="key">S<div class="description">HIHAT</div></div>
-      <div class="key">D<div class="description">KICK</div></div>
-      <div class="key">F<div class="description">OPENHAT</div></div>
-      <div class="key">G<div class="description">BOOM</div></div>
-      <div class="key">H<div class="description">RIDE</div></div>
-      <div class="key">J<div class="description">SNARE</div></div>
-      <div class="key">K<div class="description">TOM</div></div>
-      <div class="key">L<div class="description">LINK</div></div>
+      <div class="key" data-key="65"><kbd>A</kbd><span class="sound">CLAP</span></div>
+      <div class="key" data-key="83"><kbd>S</kbd><span class="sound">HIHAT</span></div>
+      <div class="key" data-key="68"><kbd>D</kbd><span class="sound">KICK</span></div>
+      <div class="key" data-key="70"><kbd>F</kbd><span class="sound">OPENHAT</span></div>
+      <div class="key" data-key="71"><kbd>G</kbd><span class="sound">BOOM</span></div>
+      <div class="key" data-key="72"><kbd>H</kbd><span class="sound">RIDE</span></div>
+      <div class="key" data-key="74"><kbd>J</kbd><span class="sound">SNARE</span></div>
+      <div class="key" data-key="75"><kbd>K</kbd><span class="sound">TOM</span></div>
+      <div class="key" data-key="76"><kbd>L</kbd><span class="sound">LINK</span></div>
+
+      <audio data-key="65" src="audios/clap.wav"></audio>
+      <audio data-key="83" src="audios/hihat.wav"></audio>
+      <audio data-key="68" src="audios/kick.wav"></audio>
+      <audio data-key="70" src="audios/openhihat.wav"></audio>
+      <audio data-key="71" src="audios/boom.wav"></audio>
+      <audio data-key="72" src="audios/ride.wav"></audio>
+      <audio data-key="74" src="audios/snare.wav"></audio>
+      <audio data-key="75" src="audios/tom.wav"></audio>
+      <audio data-key="76" src="audios/link.wav"></audio>
     </div>
   </body>
 </htmL>
