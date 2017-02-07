@@ -15,4 +15,5 @@ function removeClass(x) {
   key.classList.remove('playing');
 }
 
-window.addEventListener('keydown', playSound, removeClass);
+window.addEventListener('keydown', playSound);
+window.addEventListener('keyup', removeClass);
